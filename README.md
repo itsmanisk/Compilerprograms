@@ -2,5 +2,5 @@
 This repository contains Compiler Design Program.
 =======
 =======
-this is a compilre program 
+this is acompiler program 
 sexy
