@@ -1,3 +1,2 @@
 # Compilerprograms
-compiler
-gh
+This repository contains Compiler Design Program.
