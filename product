@@ -8,24 +8,24 @@ int main()
 
 	vector <string> rhs;
 	vector <char> sk;
-	string productions[n];
+	string product[n];
 
 	for(int i=0;i<n;i++){
 
-		cin>>productions[i];
-		for(int j=3;j<productions[i].size();j++){
+		cin>>product[i];
+		for(int j=3;j<product[i].size();j++){
 
 			string temp="";
-			while(productions[i][j]!='|' && j<productions[i].size()){
+			while(product[i][j]!='|' && j<product[i].size()){
 
-				temp+=productions[i][j];
+				temp+=product[i][j];
 				j++;
 			}
 			
 			if(temp.size()>0){
 
 				rhs.push_back(temp);
-				sk.push_back(productions[i][0]);
+				sk.push_back(product[i][0]);
 			}
 		}
 	}
